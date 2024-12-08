@@ -1,0 +1,12 @@
+.titleBlock {
+    border-radius: 0 6px 0 0;
+    backdrop-filter: blur(12px);
+    background: linear-gradient(90.00deg, rgba(61, 24, 24, 0.78) 0%,rgba(0, 0, 0, 0) 50.929%),linear-gradient(270.00deg, rgb(31, 31, 39) 4.079%,rgba(31, 31, 39, 0.32) 74.152%);
+    width: 100%;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 44px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 32px;
+}

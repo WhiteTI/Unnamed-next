@@ -1,0 +1,15 @@
+.menu {
+    gap: 4px;
+    margin-top: 21px;
+    font-size: 20px;
+
+    & a {
+        width: 180px;
+        padding: 14px 20px 14px 16px;
+        border-radius: 4px 0 0 4px;
+    }
+
+    & a:hover {
+        background-color: rgba(54, 54, 67, 0.4);
+    }
+}
