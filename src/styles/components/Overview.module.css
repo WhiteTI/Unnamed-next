@@ -1,0 +1,61 @@
+.imgBackground {
+    width: 166px;
+    height: 166px;
+    border: 2px solid var(--text-color);
+    border-radius: 4px;
+}
+
+.wrapper {
+    border-radius: 0 0 6px 0;
+    backdrop-filter: blur(20px);
+    background: radial-gradient(112.29% 61.47% at 49% -13%,rgba(31, 31, 39, 0.53),rgb(31, 31, 39) 43.546%)/* Предупреждение: градиент использует вращение, не поддерживаемое CSS, и может работать не так, как ожидается. */;
+}
+
+.elementRegionText {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--text-second-color);
+}
+
+.elementLogo {
+    & img {
+        height: 34px;
+    }
+}
+
+.weapon {
+    margin-top: 22px;
+
+    .weaponImg {
+        height: 52px;
+        width: 52px;
+        background-color: var(--black-f1);
+        border-bottom: 0.5px solid var(--gray-36);
+        border-left: 0.5px solid var(--gray-36);
+        border-top: 0.5px solid var(--gray-36);
+    }
+
+    .weaponText {
+        width: 120px;
+        height: 52px;
+        border-radius: 0 4px 4px 0;
+        background-color: var(--gray-36);
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
+    }
+}
+
+.description {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.talents {
+    background-color: var(--black-24);
+    padding: 22px;
+}
