@@ -1,0 +1,9 @@
+.card {
+    max-height: 440px;
+    background-color: var(--gray-36);
+}
+
+.cardTitle {
+    background-image: linear-gradient(244deg, rgba(49, 43, 71, .5294117647058824), transparent);
+    background-color: var(--5-star-color);
+}
