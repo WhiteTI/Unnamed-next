@@ -1,0 +1,41 @@
+.skillInfoWrapper {
+    height: 460px;
+}
+
+.skillImage {
+    width: 70px;
+    background-color: var(--black-f1);
+    border-radius: 6px;
+}
+
+.level {
+    background-color: var(--black-19);
+    border-radius: 4px;
+}
+
+.inputWrapper {
+    width: 412px;
+    height: 48px;
+    border: 1px solid var(--white-ebe);
+    border-radius: 4px;
+
+    & [data-scope="slider"][data-part="track"] {
+        background-color: var(--white-ebe);
+        width: 392px;
+        height: 4px;
+    }
+
+    & [data-scope="slider"][data-part="range"] {
+        background-color: var(--pyro-color);
+        height: 4px;
+    }
+
+    & [data-scope="slider"][data-part="thumb"] {
+        top: -12px;
+        background-color: var(--white-ebe);
+        height: 28px;
+        width: 28px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}

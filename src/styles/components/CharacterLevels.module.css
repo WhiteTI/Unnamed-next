@@ -1,0 +1,47 @@
+.levelBackground {
+    background-color: var(--black-24);
+    border-radius: 4px 4px 0 0;
+    border-bottom: 1px solid var(--text-color);
+}
+
+.level {
+    background-color: var(--black-19);
+    border-radius: 4px;
+}
+
+.levelStats {
+    background-color: var(--black-19);
+    width: 25%;
+
+    & img {
+        width: 31px;
+        height: 31px;
+    }
+}
+
+.inputWrapper {
+    width: 332px;
+    height: 48px;
+    border: 1px solid var(--white-ebe);
+    border-radius: 4px;
+
+    & [data-scope="slider"][data-part="track"] {
+        background-color: var(--white-ebe);
+        width: 312px;
+        height: 4px;
+    }
+
+    & [data-scope="slider"][data-part="range"] {
+        background-color: var(--pyro-color);
+        height: 4px;
+    }
+
+    & [data-scope="slider"][data-part="thumb"] {
+        top: -12px;
+        background-color: var(--white-ebe);
+        height: 28px;
+        width: 28px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
